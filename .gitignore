@@ -1,2 +1,5 @@
 .gitiginore
-/node_modules
+.DS_Store
+*.swp
+coverage/
+node_modules/
