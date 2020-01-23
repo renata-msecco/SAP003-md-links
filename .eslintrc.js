@@ -26,5 +26,10 @@ module.exports = {
       'jest/no-identical-title': 'error',
       'jest/prefer-to-have-length': 'warn',
       'jest/valid-expect': 'error',
+      'no-console':0,
+      'prefer-promise-reject-errors': 0,
+      'consistent-return':0,
+      'arrow-body-style':0,
+      'consistent-return':0
     },
   };
