@@ -8,7 +8,7 @@ O projeto MD Links é uma biblioteca que lê arquivos e links no formato Markdow
 
 A instalação da biblioteca é feita através do NodeJs, a partir do comando:
 
-npm install https://github.com/renata-msecco/SAP003-md-links
+`npm install https://github.com/renata-msecco/SAP003-md-links`
 
 
 ##  Utilização
