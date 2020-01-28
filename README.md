@@ -20,8 +20,3 @@ através do terminal:
 
 `$ md-links ./some example.md`
 
-##  Código:
-
-Por se tratar de um projeto Back-end apresento abaixo um trecho de código com uma parte do projeto que considero importante.
-
-![Mdlinks](/image/Mdlinks.jpg)
