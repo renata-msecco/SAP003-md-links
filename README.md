@@ -6,25 +6,36 @@ O projeto MD Links é uma biblioteca que lê arquivos e links no formato Markdow
 
 ##  Instalação:
 
-A instalação da biblioteca é feita através do NodeJs, a partir do comando:
+A instalação da biblioteca é feita através do NodeJs, a partir do comando no terminal:
 
 `npm install https://github.com/renata-msecco/SAP003-md-links`
 
+# Utilização:
 
-##  Utilização:
 
-O executável desta aplicação deve poder ser executado da seguinte maneira,
-através do terminal:
+## Java Script
+
+Exemplo abaixo demonstra como utiliza a biblioteca em JS:
+
+`const mdLinks = require(".caminho-da-pasta-de-instalação/lib/index.js");
+
+mdLinks("./example.md")
+  .then(links => {
+    // => [{ href, text }]
+  })  
+  .catch(console.error);` 
+
+## CLI
+
+O executável desta aplicação deve poder ser executado da seguinte maneira,através do terminal:
 
 `md-links <path-to-file>` 
 
 `$ md-links ./some example.md`
 
-<<<<<<< HEAD
 ##  Código:
 
-Por se tratar de um projeto Back-end apresento abaixo um trecho de código com uma parte do projeto que considero importante.
+Por se tratar de um projeto Back-end apresento abaixo um trecho de código do projeto.
 
 ![Mdlinks](/image/Mdlinks.jpg)
-=======
->>>>>>> 5d33a3ee11563df8354d2806ef029ea72f5994d3
+
