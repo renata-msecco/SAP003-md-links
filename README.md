@@ -17,13 +17,13 @@ A instalação da biblioteca é feita através do NodeJs, a partir do comando no
 
 Exemplo abaixo demonstra como utiliza a biblioteca em JS:
 
-`const mdLinks = require(".caminho-da-pasta-de-instalação/lib/index.js");
+´const mdLinks = require(".caminho-da-pasta-de-instalação/lib/index.js");
 
 mdLinks("./example.md")
   .then(links => {
     // => [{ href, text }]
   })  
-  .catch(console.error);` 
+  .catch(console.error);´
 
 ## CLI
 
